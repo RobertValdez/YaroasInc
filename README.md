@@ -1,2 +1,2 @@
-# PrestamosSoft
-Programa para hacer prestamos
+# YaroasInc
+Programa para vender Yaroas, Intefaz
