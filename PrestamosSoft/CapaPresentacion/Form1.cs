@@ -15,6 +15,23 @@ namespace CapaPresentacion
         public Form1()
         {
             InitializeComponent();
+            SidePanel.Height = button1.Height;
+            SidePanel.Top = button1.Top;
+            primerUserControl1.BringToFront();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button1.Height;
+            SidePanel.Top = button1.Top;
+            primerUserControl1.BringToFront();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button2.Height;
+            SidePanel.Top = button2.Top;
+            segundoControlUser1.BringToFront();
         }
     }
 }

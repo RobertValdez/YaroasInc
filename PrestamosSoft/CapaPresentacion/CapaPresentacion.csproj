@@ -52,21 +52,51 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="PrimerUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrimerUserControl.Designer.cs">
+      <DependentUpon>PrimerUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrimerUserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PrimerUserControl1.Designer.cs">
+      <DependentUpon>PrimerUserControl1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SegundoControlUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SegundoControlUser.Designer.cs">
+      <DependentUpon>SegundoControlUser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimerUserControl.resx">
+      <DependentUpon>PrimerUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimerUserControl1.resx">
+      <DependentUpon>PrimerUserControl1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
+    <EmbeddedResource Include="SegundoControlUser.resx">
+      <DependentUpon>SegundoControlUser.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -76,5 +106,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
