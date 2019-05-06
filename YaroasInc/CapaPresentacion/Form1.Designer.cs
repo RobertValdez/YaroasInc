@@ -48,8 +48,8 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
-            this.primerUserControl1 = new CapaPresentacion.PrimerUserControl();
             this.segundoControlUser1 = new CapaPresentacion.SegundoControlUser();
+            this.primerUserControl1 = new CapaPresentacion.PrimerUserControl();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -305,13 +305,7 @@
             this.button9.Text = "X";
             this.button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.button9.UseVisualStyleBackColor = true;
-            // 
-            // primerUserControl1
-            // 
-            this.primerUserControl1.Location = new System.Drawing.Point(236, 162);
-            this.primerUserControl1.Name = "primerUserControl1";
-            this.primerUserControl1.Size = new System.Drawing.Size(920, 417);
-            this.primerUserControl1.TabIndex = 6;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // segundoControlUser1
             // 
@@ -319,6 +313,13 @@
             this.segundoControlUser1.Name = "segundoControlUser1";
             this.segundoControlUser1.Size = new System.Drawing.Size(970, 416);
             this.segundoControlUser1.TabIndex = 7;
+            // 
+            // primerUserControl1
+            // 
+            this.primerUserControl1.Location = new System.Drawing.Point(236, 162);
+            this.primerUserControl1.Name = "primerUserControl1";
+            this.primerUserControl1.Size = new System.Drawing.Size(920, 417);
+            this.primerUserControl1.TabIndex = 6;
             // 
             // Form1
             // 
@@ -340,6 +341,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
